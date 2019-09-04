@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoinetActivity"
+    android:gravity="center"
+    android:background="@color/colorBg"
+    >
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:src="@mipmap/ikonnoinet"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <Button
+        android:id="@+id/refresh"
+        android:background="@mipmap/roundbtn"
+        android:textColor="@color/textputih"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="18dp"
+        android:shadowColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:text="Reload" />
+
+</RelativeLayout>
+
